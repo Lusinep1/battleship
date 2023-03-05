@@ -1,5 +1,22 @@
 
 
+#gamesboard-container{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-board{
+    width: 200px;
+    height: 200px;
+}
+
+/* creating blockes inside game-board */
+
+.block {
+    width: 20px;
+    height: 20px;
+}
 
 .options-container{
     width: 500px;
@@ -61,3 +78,4 @@
     height: 10px;
     margin: 3px;
 }
+
